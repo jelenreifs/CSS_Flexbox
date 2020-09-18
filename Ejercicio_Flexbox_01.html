@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 01</title>
+    <style>
+        header {
+            display:flex;
+            background-color: #82bb9b;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .logotipo{
+            display: flex;
+            align-items: center;
+            color:#fff;
+            font-size: 1rem;
+
+        }
+
+        header nav {
+            display: flex;
+            align-items: center;
+            justify-self: end;
+        }
+
+        header nav ul {
+            display:flex;
+            list-style: none;
+        }
+
+          header nav ul li {
+            background-color: #f4f4f4;
+            padding: 6px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: #518869;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logotipo">TÍTULO</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Google</a></li>
+                <li><a href="#">Yahho</a></li>
+                <li><a href="#">Dock Dock Go</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p></p>
+
+    </main>
+    
+</body>
+</html>
